@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="_1" HorizontalAlignment="Left" Height="61" Margin="149,58,0,0" VerticalAlignment="Top" Width="65" IsEnabled="False"/>
+        <Button x:Name="_2" HorizontalAlignment="Left" Height="61" Margin="228,58,0,0" VerticalAlignment="Top" Width="65" IsEnabled="False"/>
+        <Button x:Name="_3" HorizontalAlignment="Left" Height="61" Margin="311,58,0,0" VerticalAlignment="Top" Width="69" IsEnabled="False"/>
+        <Button x:Name="_4" HorizontalAlignment="Left" Height="59" Margin="149,137,0,0" VerticalAlignment="Top" Width="65" IsEnabled="False"/>
+        <Button x:Name="_5" HorizontalAlignment="Left" Height="59" Margin="228,137,0,0" VerticalAlignment="Top" Width="65" IsEnabled="False"/>
+        <Button x:Name="_6" HorizontalAlignment="Left" Height="59" Margin="311,137,0,0" VerticalAlignment="Top" Width="69" IsEnabled="False"/>
+        <Button x:Name="_7" HorizontalAlignment="Left" Height="58" Margin="149,217,0,0" VerticalAlignment="Top" Width="65" IsEnabled="False"/>
+        <Button x:Name="_8" HorizontalAlignment="Left" Height="58" Margin="228,217,0,0" VerticalAlignment="Top" Width="65" IsEnabled="False"/>
+        <Button x:Name="_9" HorizontalAlignment="Left" Height="58" Margin="311,217,0,0" VerticalAlignment="Top" Width="69" IsEnabled="False"/>
+        <Button x:Name="start" Content="Начать игру" HorizontalAlignment="Left" Margin="463,65,0,0" VerticalAlignment="Top" Height="38" Width="169" Click="start_restart"/>
+
+    </Grid>
+</Window>
